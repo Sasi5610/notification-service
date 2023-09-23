@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const express = require("express");
 const bodyParser = require("body-parser");
 const { DB_URL, DB_NAME } = require("./configs/db.config");
-const PORT = require("./configs/server.config");
+const { PORT } = require("./configs/server.config");
 
 const app = express();
 
